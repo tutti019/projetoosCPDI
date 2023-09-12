@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinâmicas, áudio e videos</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Aumenta e diminiua o tamanho do seu
+        navegador e veja como as imagens se 
+        comportam.
+    </p>
+    <picture>
+        <source media="(max-width: 750px)"
+        srcset="imagens/foto-p.png" type="image/png">
+       
+        <source media="(max-width: 1050px)"
+        srcset="imagens/foto-m.png" type="image/png">
+
+        <img src="imagens/foto-g.png" alt="imagem
+        flexivel">
+    </picture>
+    
+    <h1>Reproduzindo áudio</h1>
+
+    <audio src="midia/pray.mp3" controls 
+    autoplay></audio>
+
+    <audio preload="metadata" controls loop>
+        <source src="midia/pray.mp3" type="audio/
+        mpeg">
+        <p>Infelizmente seu navegador não consegue reproduzir o áudio
+            <a href="midia/pray.mp3">Clique aqui para baixar o arquivo MP3</a></p>
+    </audio>
+    <h3>Preload</h3>
+    <p>Indica se o áudio será ou não pré carregado e aceita 3 valores: </p>
+         <ul>
+            <li>metadata - carrega apenas as informações sobre o arquivo 
+                (tamanho, tempo, informações de direitos etc)
+            </li>
+            <li> none - não vai carregar nada até dar play.</li>
+            <li> auto - é o padrão e vai carregar
+                o arquivo inteiro assim que o usuário entrar no site, mesmo que nunca dê o play
+            </li>
+         </ul>
+    </p>     
+
+    <h1>Incluindo vídeos</h1>
+    <h2>Vídeos hospedados localmente</h2>
+
+    <video width="600" poster="imagens/foto-m.png" controls autoplay>
+        <source src="meu-videp.webm" type="video/webm">
+
+        <source src="meu-video.mp4" type="video/mp4">
+
+        <source src="meu-video.ogv" type="video/ogg">
+
+        <p>Infelizmente seu navegador não conseguiu carregar o video</p>
+    </video>
+
+    <h2>Videos hospedado externamente</h2>
+    <h3>YouTube</h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/HZsNcAg2dRg?si=fE2dtYQy8ZTCTVOj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+
+    
+</body>
+</html>

@@ -1,0 +1,78 @@
+body{
+    background-color:white;
+    color:black;
+    margin: 0;
+    background-image: linear-gradient(to right, #123EB8, #5F85EE, #1750EB);
+            background-attachment: fixed;
+
+}
+header {
+    background-color:#6d716e; /* Cor de fundo da navbar */
+    color: #fff; /* Cor do texto na navbar */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.logo img {
+    max-width: 80px; /* Largura máxima do logotipo */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ff4500; /* Cor quando o mouse passa por cima */
+}
+footer {
+    background-color: #5ca667;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    margin: 0;
+
+}
+
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p{
+    font-family:Arial, Helvetica, sans-serif;
+    color: #fff;
+    padding: 15px;
+    border-radius: 15%;
+}
+
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h5{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1, h2, h3, h4, h5{
+    color: #000000;
+}

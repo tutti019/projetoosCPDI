@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body{
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    color: black;
+}
+h2 { color: rgb(20, 113, 82); 
+
+}
+/*usado chamar id*/
+#principal {
+    text-align: center;
+    background-color: rgb(3, 53, 36);
+    color: white;
+}
+
+.basico {
+    color: #3c805e;
+}
+
+.intermediario {
+    color: aqua;
+}
+.avancado {
+    color: rgb(25, 115, 85);
+}
